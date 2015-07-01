@@ -14,24 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4DD67C0A1A5C55C900ED2280"
-               BuildableName = "Alamofire.framework"
-               BlueprintName = "Alamofire OSX"
-               ReferencedContainer = "container:Alamofire.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F829C6B11A7A94F100A2CD59"
-               BuildableName = "Alamofire OSX Tests.xctest"
-               BlueprintName = "Alamofire OSX Tests"
-               ReferencedContainer = "container:Alamofire.xcodeproj">
+               BlueprintIdentifier = "BA4088941B3407FB00CC4954"
+               BuildableName = "WebTest.app"
+               BlueprintName = "WebTest"
+               ReferencedContainer = "container:WebTest.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F829C6B11A7A94F100A2CD59"
-               BuildableName = "Alamofire OSX Tests.xctest"
-               BlueprintName = "Alamofire OSX Tests"
-               ReferencedContainer = "container:Alamofire.xcodeproj">
+               BlueprintIdentifier = "BA4088A81B3407FB00CC4954"
+               BuildableName = "WebTestTests.xctest"
+               BlueprintName = "WebTestTests"
+               ReferencedContainer = "container:WebTest.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BA4088B31B3407FB00CC4954"
+               BuildableName = "WebTestUITests.xctest"
+               BlueprintName = "WebTestUITests"
+               ReferencedContainer = "container:WebTest.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4DD67C0A1A5C55C900ED2280"
-            BuildableName = "Alamofire.framework"
-            BlueprintName = "Alamofire OSX"
-            ReferencedContainer = "container:Alamofire.xcodeproj">
+            BlueprintIdentifier = "BA4088941B3407FB00CC4954"
+            BuildableName = "WebTest.app"
+            BlueprintName = "WebTest"
+            ReferencedContainer = "container:WebTest.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,15 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4DD67C0A1A5C55C900ED2280"
-            BuildableName = "Alamofire.framework"
-            BlueprintName = "Alamofire OSX"
-            ReferencedContainer = "container:Alamofire.xcodeproj">
+            BlueprintIdentifier = "BA4088941B3407FB00CC4954"
+            BuildableName = "WebTest.app"
+            BlueprintName = "WebTest"
+            ReferencedContainer = "container:WebTest.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -93,15 +90,16 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4DD67C0A1A5C55C900ED2280"
-            BuildableName = "Alamofire.framework"
-            BlueprintName = "Alamofire OSX"
-            ReferencedContainer = "container:Alamofire.xcodeproj">
+            BlueprintIdentifier = "BA4088941B3407FB00CC4954"
+            BuildableName = "WebTest.app"
+            BlueprintName = "WebTest"
+            ReferencedContainer = "container:WebTest.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
