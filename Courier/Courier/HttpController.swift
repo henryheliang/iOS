@@ -45,8 +45,8 @@ class HttpController: NSObject {
             print( "HTTP response: \(response)" )
             
             if data != nil {
-                //let json = JSON(data!)
-                //print( "data: \(json)" )
+                let json = JSON(data!)
+                print( "data: \(json)" )
                 self.delegate?.didHttpResponse(data!)
             }
             else{

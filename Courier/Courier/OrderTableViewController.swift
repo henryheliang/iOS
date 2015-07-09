@@ -28,7 +28,7 @@ class OrderTableViewController: UITableViewController,HttpProtocol {
     }
     
     //HTTP POST URL
-    let url = "http://120.25.160.159/dl/data.php"
+    let url = "http://dalinoo.com/dl/appdata.php"
     
     //为访问网络建立回调接口实例
     var cHttp:HttpController = HttpController()
